@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 模型和权重文件
+*.pt
+*.pth
+*.bin
+*.h5
+*.weights
+
+# 训练日志和检查点
+runs/
+logs/
+checkpoints/
+*.log
+
+# 数据集（通常不直接放在仓库）
+data/
+gspeech_v2/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统
+.DS_Store
+Thumbs.db
